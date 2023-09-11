@@ -26,13 +26,13 @@ p::first-letter{
 .display{
     display: inline-block;
     padding: 3%;
-    animation-name: animasi;
-
+    
 }
 
 .display:hover{
     animation-name: animasi;
     animation-duration: 5s;
+  
 }
 
 @keyframes animasi {
