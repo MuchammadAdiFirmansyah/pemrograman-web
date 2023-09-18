@@ -12,10 +12,18 @@ body::after{
     body::after{
         content: "SM";
     }
+
+    nav {
+        background-color: red;
+    }
 }
 @media(min-width:768px){
     body::after{
         content: "MD";
+    }
+
+    nav {
+        background-color: blue;
     }
 }
 @media(min-width:992px){
